@@ -1,0 +1,233 @@
+*{
+   /*------------- overflow: hidden;---------------*/
+    /*font-family: 'Roboto';*/
+    margin: 0px;
+    padding: 0px;
+    /*box-sizing: border-box;*/
+}
+menu{
+    height: 6.5vh;
+    align-items: center;
+    display: flex;
+    background: rgba(0, 0, 0, 0.849);
+}
+li{
+
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 1px solid rgba(255, 255, 255, 0.349);
+}
+ul{
+    list-style: none;
+}
+.a{
+
+    font-size: 11px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.685);
+    font-family: ProximaNova,Arial,Sans-serif;
+}
+.leftmenu{
+    display: flex;
+    flex: 1;
+}
+.rightmenu{
+    display: flex;
+}
+.cartquantity{
+    padding-top: 5px;
+}
+p{
+    margin-left: 10px;
+}
+.cart{
+    margin-right: 20px;
+    border: none;
+    /* display: flex;
+    margin-bottom: 10px;*/
+}
+/*.cont{
+  display: block;
+  border: 2px solid black;
+}*/
+.header{
+    
+    position: absolute;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    padding-top: 6px;
+    padding-left: 4px;  
+    top: 8px;
+    left: 16px; 
+}
+/*.header{
+    top: -30px;
+    position: relative;
+}*/
+/*.photo{
+   position: relative
+   top: 10px;
+}*/
+.photu{
+   /* text-align: center;*/
+   position: relative;
+    top: 1px;
+    right: 0px;
+    
+    /*   important    */
+    /* transform: translate(-100px,-100px); */
+}
+.milogo{
+    padding-right: 40px;
+}
+.milogo:hover{
+    background-image: url("img/xyz.png")
+}
+.text{
+    padding-right: 100px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.377);
+}
+.product{
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.651);
+}
+a{
+    font-family: ProximaNova,Arial,Sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+}
+.search{
+    justify-content: end;
+}
+ul{
+    display: flex;
+}
+/* this is MAIN */
+.threephotos,.videos{
+   
+    /* position: absolute;
+    top: 600px;*/
+    display: flex;
+    
+}
+.ganna{
+margin-right: 20px;
+margin-left: 20px;
+}
+.bulb{
+    margin-right: 10px;
+}
+.india{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.star{
+    text-transform: uppercase;
+   /* text-align: center;*/
+    color: #806e6e;
+    font-family: ProximaNova,Arial,Sans-serif;
+    font-weight: lighter;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: xx-large;
+    padding-left: 38%;
+    padding-right: 25%;
+   /* border-bottom: 1px solid #616161;*/
+}
+.bha,.flex,.photogrid,.earphoneandbags{
+    display: flex;
+}
+.earphone{
+    margin-right: 5px;
+}
+.bank{
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.music{
+    overflow: hidden;
+   /* transform: translate(-10px, -100px);*/
+   border-bottom:1px solid #fd4900;
+   padding-bottom: 3px;
+   margin-left: 300px;
+}
+.Mobilea{
+    flex: 1;
+    margin-right: 300px;
+}
+.smart,.home,.lifestyle{
+    margin-left: 25px;
+    margin-right: 20px;
+}
+.alink{
+    font-size: 18px;
+    color:  #806e6e;   
+}
+.top,.bottom{
+    display: flex;
+}
+.flex{
+    margin-top: 35px;
+}
+.rightofcs{
+    display: block;
+}
+/*.rn{
+    
+    margin-right: 5px;
+}*/
+.sai{
+    justify-content: space-around;
+    display: flex;
+}
+.lord{
+    margin-left: 70px;
+}
+.mi{
+    margin-left: 10px;
+}
+.mi,.mix{
+    margin-right: 20px;
+}
+.main{
+    display: flex;
+    background: rgba(0, 0, 0, 0.849);
+    justify-content: space-around;
+    
+}
+.flexhead{
+    font-size: 15px;
+    /*font-weight: bold;*/
+    line-height: 50px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.685);
+    font-family: ProximaNova,Arial,Sans-serif
+}
+.para{
+    font-size: 12px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.685);
+    font-family: ProximaNova,Arial,Sans-serif;
+    opacity: 0.7;
+}
+button{
+    background-color: #806e6e;
+    font-size: 12px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.685);
+    font-family: ProximaNova,Arial,sans-serif;
+    padding: 10px;
+}
+.lower{
+    background-color: rgba(0, 0, 0, 0.849);
+}
+.last{
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
